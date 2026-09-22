@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fluview-pulse
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install .
+    startCommand: gunicorn --bind 0.0.0.0:$PORT app.app:server
+    healthCheckPath: /
+    autoDeployTrigger: commit
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
