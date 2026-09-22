@@ -15,6 +15,8 @@ It combines two CDC surveillance systems without treating them as equivalent:
 
 Both feeds are aggregate, preliminary, and revision-prone. No PHI is used.
 
+**Live dashboard:** [fluview-pulse.onrender.com](https://fluview-pulse.onrender.com)
+
 ## What the dashboard shows
 
 The guided overview answers the core surveillance questions with:
