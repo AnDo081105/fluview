@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-22T11:49:08+00:00",
+  "generated_at": "2026-09-26T20:14:25+00:00",
   "sources": {
     "ilinet": {
       "ok": true,
-      "retrieved_at": "2026-09-22T11:43:18+00:00",
-      "surveillance_through": "2026-09-05",
-      "snapshot": "raw\\ilinet\\ilinet_2026-09-22T114318Z.csv.gz",
-      "rows": 6281,
-      "message": "Loaded cached snapshot in offline mode."
+      "retrieved_at": "2026-09-26T20:14:24+00:00",
+      "surveillance_through": "2026-09-12",
+      "snapshot": "raw/ilinet/ilinet_2026-09-26T201424Z.csv.gz",
+      "rows": 6292,
+      "message": ""
     },
     "flusurv": {
       "ok": true,
-      "retrieved_at": "2026-09-22T11:43:20+00:00",
-      "surveillance_through": "2026-09-12",
-      "snapshot": "raw\\flusurv\\flusurv_2026-09-22T114320Z.csv.gz",
-      "rows": 8584,
-      "message": "Loaded cached snapshot in offline mode."
+      "retrieved_at": "2026-09-26T20:14:25+00:00",
+      "surveillance_through": "2026-09-19",
+      "snapshot": "raw/flusurv/flusurv_2026-09-26T201425Z.csv.gz",
+      "rows": 8617,
+      "message": ""
     }
   },
   "outputs": {
-    "ilinet": 6281,
-    "flusurv": 8584,
-    "ilinet_metrics": 6281,
-    "flusurv_metrics": 8584
+    "ilinet": 6292,
+    "flusurv": 8617,
+    "ilinet_metrics": 6292,
+    "flusurv_metrics": 8617
   }
 }
